@@ -12,7 +12,8 @@ import path from 'path';
 const __dirname = path.resolve();
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    // origin: "http://localhost:5173",
+    origin: "https://chatapfrontend.netlify.app",
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: "Content-Type, Authorization",
     credentials: true,
